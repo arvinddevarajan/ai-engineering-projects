@@ -10,6 +10,32 @@ A tool for evaluating and comparing LLM responses across multiple providers on R
 - Scores each answer on faithfulness and relevance using an LLM judge (G-Eval pattern)
 - Reports quality scores, latency, and cost per model side-by-side
 
+## Architecture
+
+```mermaid
+flowchart TD
+    A[Document] --> B[Chunker\noverlap=100 words]
+    B --> C[OpenAI Embeddings\ntext-embedding-3-small]
+    C --> D[(In-memory Index\nchunks + vectors)]
+
+    Q[Question] --> E[Embed Question]
+    E --> F[Cosine Similarity Search]
+    D --> F
+    F --> G[Top-N Relevant Chunks\nContext]
+
+    G --> H[GPT-4o-mini]
+    G --> I[LLaMA 3.1 8b]
+    G --> J[LLaMA 3.3 70b]
+    G --> K[Qwen3-32b]
+
+    H & I & J & K --> L[LLM Judge\nGPT-4o-mini\ntemperature=0]
+    L --> M[Faithfulness + Relevance Scores]
+
+    H & I & J & K --> N[Cost + Latency Tracker]
+
+    M & N --> O[Results Table]
+```
+
 ## Why I built this
 
 Choosing the right LLM for a production use case is an engineering decision, not a gut feeling. This harness makes the cost/quality/latency trade-off measurable instead of assumed.
