@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+openai
+anthropic
+groq
+python-dotenv
+numpy
+rich
+ruff

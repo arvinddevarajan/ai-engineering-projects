@@ -1,6 +1,3 @@
-# Runs on every pull request — lints code and installs dependencies to catch issues early.
-# Add a "test" step below once you have tests.
-
 name: CI
 
 on:
@@ -8,24 +5,26 @@ on:
     branches: [main]
 
 jobs:
-  lint-and-install:
+  lint-document-qa:
     runs-on: ubuntu-latest
-
     steps:
-      # 1. Check out the code from the PR branch
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      # 2. Set up the Python version your project uses
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      # 3. Install dependencies for the document-qa project
       - name: Install dependencies
         run: pip install -r document-qa/requirements.txt
-
-      # 4. Lint — ruff catches syntax errors, unused imports, style issues
-      - name: Lint with ruff
+      - name: Lint
         run: ruff check document-qa/
+
+  lint-llm-eval-harness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r llm-eval-harness/requirements.txt
+      - name: Lint
+        run: ruff check llm-eval-harness/
