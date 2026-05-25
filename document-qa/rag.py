@@ -32,9 +32,9 @@ def answer_question(question, filepath):
     text = load_document(filepath)
     chunks = chunk_text(text)
     relevant = find_relevant_chunks(question, chunks)
-    
+
     context = "\n\n".join(relevant)
-    
+
     messages = [
         {"role": "system", "content": f"Answer based only on this context. If the answer is not in the context, say 'I don't have that information'.\n\nContext:\n{context}"},
         {"role": "user", "content": question}
