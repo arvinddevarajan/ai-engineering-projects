@@ -1,0 +1,13 @@
+Company Name: Nexus Pharmaceuticals
+
+Vacation Policy:
+Employees are entitled to 20 days of paid vacation per year. Vacation requests must be submitted at least two weeks in advance and approved by the line manager. Unused vacation days can be carried over up to a maximum of 5 days to the next calendar year.
+
+Expense Policy:
+Employees can claim up to $100 per day for meals during business travel. All expenses above $50 must be accompanied by a receipt. Expense reports must be submitted within 30 days of the expense being incurred.
+
+Remote Work Policy:
+Employees may work remotely up to 3 days per week subject to manager approval. All remote employees must be available during core hours of 10am to 3pm in their local timezone. Company equipment must be used for all work-related tasks.
+
+Onboarding:
+New employees must complete mandatory compliance training within the first 30 days of joining. Each new hire is assigned a buddy from their team for the first 90 days. IT equipment will be provided on the first day of joining.
