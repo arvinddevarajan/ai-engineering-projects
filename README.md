@@ -27,4 +27,4 @@ Each project has its own `README.md` with setup and run instructions. All projec
 
 ## Contact
 
-[GitHub](https://github.com/ArvindDevarajan) · [Email](mailto:dev.arvind.16@gmail.com)
+[GitHub](https://github.com/ArvindDevarajan) · [Email](mailto:ad.arvinddevarajan@gmail.com)
