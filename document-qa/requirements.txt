@@ -4,3 +4,5 @@ groq
 python-dotenv
 pydantic
 ruff
+openai
+chromadb
