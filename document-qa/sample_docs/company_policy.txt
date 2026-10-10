@@ -11,3 +11,51 @@ Employees may work remotely up to 3 days per week subject to manager approval. A
 
 Onboarding:
 New employees must complete mandatory compliance training within the first 30 days of joining. Each new hire is assigned a buddy from their team for the first 90 days. IT equipment will be provided on the first day of joining.
+
+Information Security Policy
+Employees must use multi-factor authentication when accessing company systems. Passwords must be at least 14 characters and must not be reused across company accounts. Suspected phishing messages should be reported through the security portal. Employees must not send company files to personal email accounts.
+
+Data Classification Policy
+Company information is classified as Public, Internal, Confidential, or Restricted. Public information may be shared externally after approval from Communications. Internal information is for workforce use. Confidential and Restricted information may be accessed only by authorized employees with a business need.
+
+Records Retention Policy
+Finance records must be retained for seven years. Employment records must be retained for the duration of employment and seven years afterward. Project documents should follow the retention schedule assigned by the department. Legal holds suspend normal deletion requirements.
+
+Incident Reporting Policy
+Employees must report a suspected security or privacy incident as soon as possible and no later than one hour after discovery. Reports should include the time discovered, affected system, and a brief description. Employees should not investigate suspected malware themselves or delete evidence.
+
+Procurement Policy
+Purchases under $1,000 require manager approval. Purchases from $1,000 to $10,000 require approval from both the department director and Procurement. Purchases above $10,000 require three competitive quotes unless Procurement grants an exception.
+
+Remote Work Policy
+Employees may work remotely up to three days per week with manager approval. Employees handling Restricted information must use a company-managed device and connect through the approved secure access service. Work should be performed in a location where confidential screens and calls cannot be observed by others.
+
+Travel Policy
+Business trips must be approved before booking. Economy class is required for flights shorter than six hours. Hotels should be booked through the company travel portal. Employees may claim up to $65 per day for meals, and itemized receipts are required for expenses above $25.
+
+Expense Reimbursement Policy
+Expense reports must be submitted within 30 days of the purchase. Personal expenses are not reimbursable. Lost receipts require a written explanation and manager approval. Reimbursements are normally processed within two payroll cycles after approval.
+
+Leave Policy
+Full-time employees receive 20 vacation days and 10 sick days per calendar year. Vacation requests should be submitted at least two weeks in advance. Sick leave should be reported to the manager as soon as practical. Unused vacation may carry over up to five days.
+
+Parental Leave Policy
+Eligible employees may take up to 12 weeks of parental leave after a birth or adoption. Employees should notify Human Resources at least 30 days before the planned leave when possible. Benefits during leave are administered according to the employee’s plan and applicable law.
+
+Equipment Policy
+Company laptops and monitors are issued through the IT service portal. Lost or stolen equipment must be reported to IT and Security within one business day. Employees must return company equipment within five business days after their final workday.
+
+Training Policy
+Employees receive an annual learning budget of $1,000 for approved job-related training. Manager approval is required before registration. Certification exam fees may be reimbursed when the employee passes the exam and submits proof of payment.
+
+Conflicts of Interest Policy
+Employees must disclose outside work or financial interests that could affect their company responsibilities. Employees may not approve payments to a business in which they or an immediate family member have a financial interest. Questions should be directed to the Compliance team.
+
+Accessibility Policy
+Company digital services should support keyboard navigation, screen readers, and text resizing. New customer-facing features must be reviewed for accessibility before release. Accessibility issues found in production should be recorded and prioritized according to their effect on users.
+
+Vendor Access Policy
+Vendors may access company systems only after a business sponsor has been assigned and Security has approved the access request. Vendor accounts must use multi-factor authentication and expire on the approved end date. Shared vendor accounts are prohibited.
+
+Business Continuity Policy
+Critical teams must maintain an up-to-date continuity plan identifying essential services, recovery contacts, and manual workarounds. Plans must be reviewed at least once a year. A service outage affecting customer operations must be escalated to the incident commander.
